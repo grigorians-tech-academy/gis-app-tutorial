@@ -1,0 +1,25 @@
+.map {
+  flex: 1;
+  border-radius: 10px;
+}
+
+.map-popup {
+  .leaflet-popup-content-wrapper {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    box-shadow: none;
+    color: #fff;
+  }
+
+  .leaflet-popup-tip {
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
